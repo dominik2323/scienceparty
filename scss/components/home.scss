@@ -1,0 +1,17 @@
+body {
+  background-color: $black;
+}
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: calc(5vw + 20px);
+  h1 {
+    font-size: 20vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $white;
+    text-align: center;
+  }
+}
