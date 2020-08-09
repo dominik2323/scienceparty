@@ -3,6 +3,7 @@ body {
 }
 .view {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -13,5 +14,22 @@ body {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $white;
     text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+  .fcb {
+    text-decoration: none;
+    color: $white;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    border: 1px solid $white;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    &:hover {
+      background-color: $white;
+      color: black;
+    }
   }
 }
